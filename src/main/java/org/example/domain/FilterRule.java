@@ -2,13 +2,12 @@ package org.example.domain;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import org.jetbrains.annotations.NotNull;
-
 import java.time.DayOfWeek;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.stream.Stream;
+import org.jetbrains.annotations.NotNull;
 
 // TODO: Find a way to keep the Jackson annotations out of this record
 //  (something like Chimney to transform the domain structures into DTOs)

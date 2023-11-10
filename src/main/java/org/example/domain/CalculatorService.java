@@ -4,14 +4,13 @@ import io.quarkus.panache.common.Sort;
 import io.smallrye.mutiny.tuples.Tuple2;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
-import org.example.implementation.ChargeRuleEntity;
-import org.example.implementation.FilterRuleEntity;
-import org.jetbrains.annotations.NotNull;
-
 import java.time.LocalDate;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import org.example.implementation.ChargeRuleEntity;
+import org.example.implementation.FilterRuleEntity;
+import org.jetbrains.annotations.NotNull;
 
 @Singleton
 public class CalculatorService {

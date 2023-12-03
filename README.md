@@ -59,3 +59,12 @@ Ideally the files in the domain package should not have any annotations, but thi
 - Data transformation library (something like Chimney, but for Java)
 - Compile-time DI - May be this is not possible with Java?
 - Better ways to deal with `nulls`. The intellij annotations and `Optional` leave much to be desired.
+
+# Post-interview notes
+
+- It seems the interviewer was inclined to see some pre-historic Java.
+- Sealed interfaces and records (any kind of ADTs) were deemed "too complicated" (by the interviewer).
+- Data transformations with Stream seem to be "too complicated" (for the interviewer).
+- Postgres has `json` and `jsonb` column type support for over a decade now, but this is still news for people :-/
+- I can't believe people have the audacity to claim that Java is "almost like Scala" nowadays. Java is still very primitive and the average Java programmer would not recognize or leverage the powers stemming from FP and Scala at all.
+- You can write Java with **less** OOP nowadays and the language has **improved** and is **usable**.
